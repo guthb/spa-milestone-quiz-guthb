@@ -4,7 +4,7 @@
     "model": "GT-R",
     "year": "2015",
     "price": "102,995",
-    "color": "FireBrick",
+    "color": "Crimson",
     "purchased": false,
     "description": "This is a demo 2015 Nissan GT-R with only 200 miles on it. Leather seats, power everything."
   }, {
@@ -12,7 +12,7 @@
     "model": "Carerra",
     "year": "1997",
     "price": "87,000",
-    "color": "Cobalt Blue Metallic",
+    "color": "Navy",
     "purchased": false,
     "description": "This is an immaculate 1997 Porsche 911 with only 47,000 miles on it. Leather seats, power everything."
   }, {
@@ -20,7 +20,7 @@
     "model": "Supra",
     "year": "1997",
     "price": "63,995",
-    "color": "Deep Jewel Green Pearl",
+    "color": "MediumSeaGreen",
     "purchased": false,
     "description": "This is an well kept 1997 Toyota Supra with only 29,810 miles on it. Turbo! Turbo! Turbo!"
   }, {
@@ -28,7 +28,7 @@
     "model": "Cuda",
     "year": "1970",
     "price": "2,500,000",
-    "color": "Black",
+    "color": "BlueViolet",
     "purchased": false,
     "description": "This is a restored numbers matching 1970 Hemi Cuda convertable with 1,500 miles on it. Dual Quad 426/425 HP Hemi V-8 engine"
   }, {
