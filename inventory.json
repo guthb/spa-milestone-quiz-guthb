@@ -32,6 +32,14 @@
     "purchased": false,
     "description": "This is a restored numbers matching 1970 Hemi Cuda convertable with 1,500 miles on it."
   }, {
+    "make": "Dodge",
+    "model": "Challenger RT",
+    "year": "1970",
+    "price": "500,000",
+    "color": "Orange",
+    "purchased": false,
+    "description": "Can't drop the cash for a Cuda? 1971 Challenger convertable with 10,000 miles on it."
+  }, {
     "make": "Ford",
     "model": "GT",
     "year": "2005",
