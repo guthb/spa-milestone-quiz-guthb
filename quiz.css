@@ -2,25 +2,11 @@ body {
   background-color: #b6babf;
 }
 
-.usedCarCard {
-  background-color: white;
-  margin: 25px  
-}
-
 .userSelected {
   background-color: yellow;
 }
 
-/*.row{
-    margin-left: 0;
-    margin-right: 0;
+/*.carLotCard {
+  background-color: white;
 }
-
-.container{
-    .row{
-        margin-left: -15px;
-        margin-right: -15px;
-    }
-}*/
-
-
+*/
