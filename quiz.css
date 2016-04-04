@@ -2,6 +2,10 @@ body {
   background-color: #b6babf;
 }
 
+.container {
+  background-color: white;
+}
+
 .userSelected {
   background-color: yellow;
 }
