@@ -7,7 +7,7 @@ function populatePage (inventory) {
   var buildInventoryString;
   // Loop over the inventory and populate the page
   for (var i = 0; i < inventory.length; i++) {
-    buildInventoryString = `<div class="col-md-4 card" style="border: 2px solid ${inventory[i].color};">`;
+    buildInventoryString = `<div id="card"class="col-md-4 card" style="border: 2px solid ${inventory[i].color};">`;
     buildInventoryString += `<h2>${inventory[i].make}</h2>`;
     buildInventoryString += `<h2>${inventory[i].model}</h2>`;
     buildInventoryString += `<h4>Year: ${inventory[i].year}</h4>`;
