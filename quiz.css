@@ -9,3 +9,9 @@ body {
 .userSelected {
   background-color: yellow;
 }
+
+#card {
+   margin-top: 1%;
+   margin-bottom:1%;
+
+}
