@@ -1,5 +1,6 @@
 body {
   background-color: #b6babf;
+  box-sizing: border-box;
 }
 
 .container {
@@ -11,7 +12,11 @@ body {
 }
 
 #card {
-   margin-top: 1%;
-   margin-bottom:1%;
-
+  margin-top: 1%;
+  margin-bottom:1%;
+  padding-left: 2%;
+  height: 250px;
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 55px;
 }

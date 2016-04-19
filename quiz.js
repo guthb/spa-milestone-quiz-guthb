@@ -6,16 +6,18 @@ function populatePage (inventory) {
   var carDomContainer = document.getElementById("cardHolder")
   var buildInventoryString;
   // Loop over the inventory and populate the page
+  buildInventoryString = `<div class="row">`
   for (var i = 0; i < inventory.length; i++) {
-    buildInventoryString = `<div id="card"class="col-md-4 card" style="border: 2px solid ${inventory[i].color};">`;
+    buildInventoryString += `<div id="card"class="col-md-4 card" style="border: 2px solid ${inventory[i].color};">`;
     buildInventoryString += `<h2>${inventory[i].make}</h2>`;
     buildInventoryString += `<h2>${inventory[i].model}</h2>`;
     buildInventoryString += `<h4>Year: ${inventory[i].year}</h4>`;
     buildInventoryString += `<h5>Price: $${inventory[i].price}</h5>`;
     buildInventoryString += `<p>${inventory[i].description}</p>`;
     buildInventoryString += `</div>`;
-    carDomContainer.innerHTML += buildInventoryString;
   };
+  buildInventoryString += `</div>`;
+  carDomContainer.innerHTML += buildInventoryString;
   // Now that the DOM is loaded, establish all the event listeners needed
   CarLot.activateEvents();
 };
