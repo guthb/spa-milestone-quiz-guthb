@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content = "width = device-width">
+    <title>SPA Milestone Quiz</title>
+    <!--BootStrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+  </head>
+  <body>
+  <!-- nav element with text input and button -->
+    <nav class = "navbar navbar-default" role = "navigation">
+      <div class = "navbar-header">
+            <a class = "navbar-brand" href = "#">CarLot</a>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button" id="button">Button</button>
+            </span>
+            <input type="text" class="form-control" placeholder="Search for..."  id="textBox">
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
+    </nav>
+    <!--element for cards -->
+    <div class="container" id="cardHolder">
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="carLot.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+    <script type="text/javascript" src="eventHandler.js"></script>
+    <script type="text/javascript" src="background.js"></script>
+  </body>
+</html>

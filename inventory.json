@@ -1,0 +1,51 @@
+{
+  "cars": [{
+    "make": "Nissan",
+    "model": "GT-R",
+    "year": "2015",
+    "price": "102,995",
+    "color": "Crimson",
+    "purchased": false,
+    "description": "This is a demo 2015 Nissan GT-R with only 200 miles on it. Leather seats, power everything."
+  }, {
+    "make": "Porsche",
+    "model": "Carerra",
+    "year": "1997",
+    "price": "87,000",
+    "color": "Navy",
+    "purchased": false,
+    "description": "This is an immaculate 1997 Porsche 911 with only 47,000 miles on it. Leather seats, power everything."
+  }, {
+    "make": "Toyota",
+    "model": "Supra",
+    "year": "1997",
+    "price": "63,995",
+    "color": "MediumSeaGreen",
+    "purchased": false,
+    "description": "This is an well kept 1997 Toyota Supra with only 29,810 miles on it. Turbo! Turbo! Turbo!"
+  }, {
+    "make": "Plymouth",
+    "model": "Cuda",
+    "year": "1970",
+    "price": "2,500,000",
+    "color": "BlueViolet",
+    "purchased": false,
+    "description": "This is a restored numbers matching 1970 Hemi Cuda convertable with 1,500 miles on it."
+  }, {
+    "make": "Dodge",
+    "model": "Challenger RT",
+    "year": "1971",
+    "price": "500,000",
+    "color": "Orange",
+    "purchased": false,
+    "description": "Can't drop the cash for a Cuda? 1971 Challenger convertable with 10,000 miles on it."
+  }, {
+    "make": "Ford",
+    "model": "GT",
+    "year": "2005",
+    "price": "498,888",
+    "color": "Blue",
+    "purchased": false,
+    "description": "This is an limited build 2005 Ford GT with only 500 miles on it. Heritage Edition is the rarest of rare."
+  }]
+}
